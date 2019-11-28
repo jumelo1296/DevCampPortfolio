@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2019_11_28_032915) do
+=======
+ActiveRecord::Schema.define(version: 2019_11_28_025931) do
+>>>>>>> model-generator
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -22,6 +26,7 @@ ActiveRecord::Schema.define(version: 2019_11_28_032915) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+<<<<<<< HEAD
   create_table "portfolios", force: :cascade do |t|
     t.string "title"
     t.string "subtitle"
@@ -32,6 +37,8 @@ ActiveRecord::Schema.define(version: 2019_11_28_032915) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+=======
+>>>>>>> model-generator
   create_table "skills", force: :cascade do |t|
     t.string "title"
     t.integer "percent_utilized"
